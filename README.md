@@ -58,6 +58,7 @@ Uncomment and Update the key_name parameter in the aws_key_pair resource with yo
 
      If you ever face error in pushing the terraform projects into git repositories try the following command:
 
+        ```bash
         git filter-branch -f --index-filter 'git rm --cached -r --ignore-unmatch .terraform/'
 
   
